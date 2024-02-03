@@ -1,0 +1,147 @@
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+li{
+    padding: 0.8em 2em;
+    position: relative;
+}
+li i{
+    font-size: small;
+    position: absolute;
+    top:38%;
+    right: 10%;
+}
+.c-p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.p{
+    content: "";
+    padding: 1.4px 2px;
+    background-color: white;
+    border-radius: 25%;
+    border: 0.5px solid var(--c-c);
+    margin-right: 0.3em;
+}
+.p-s{
+    padding: 1.4px 7px;
+}
+.pg-c{
+    padding: 3% 2% 0% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.logo{
+    font-size: 4em;
+    font-family: var(--f-h);
+
+}
+.logo i{
+    font-size: 0.6em;
+    padding: 0.3em 0.3em;
+    margin-right: 0.3em;
+    margin-left: 0.3em;
+    color: white;
+    border-radius: 0.5em;
+}
+.fi-sr-circle-o{
+    border-bottom: 0.1em solid white;
+    border-left: 0.1em solid white;
+}
+.fi-sr-o{
+    border-top: 0.1em solid white;
+    border-right: 0.1em solid white;
+}
+.txt-head{
+    display: flex;
+    flex-direction: column;
+
+}
+.h-wlc{
+    margin-top: 3em;
+    padding-left: 1em;
+    display: flex;
+    align-items: baseline;
+    letter-spacing: 0.22em;
+    width: max-content;
+}
+
+.txt-wlcm{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding: 1.2em;
+    line-height: 1.7em;
+    letter-spacing: 0.1em;
+    font-size: 0.9em;
+    font-weight: 100;
+}
+.b-wlcm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.b-wlcm form{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    position: relative;
+}
+.b{
+    background-color: var(--bg-c-a);
+    padding: 1.3em 10em;
+    border-radius: 0.5em;
+    margin-bottom: 1.4em;
+    letter-spacing: 0.2em;
+}
+.l-b{
+    position: absolute;
+    z-index: 1;
+    font-size: 1em;
+    top:25%;
+    left: 8%;
+}
+.b-b{
+    background-color: var(--f-c-a);
+    color: var(--bg-c-b);
+    letter-spacing: 0.16em;
+}
+.ll-b{
+    left: 9.7%;
+    
+}
+.ll-b i{
+    color: var(--bg-c-b);
+}
+.i-h{
+    color: var(--c-c);
+}
+.txt-f{
+    font-size: 0.7em;
+    font-weight:unset;
+    padding: 1em 2em;
+}
+.copyy{
+    font-size: 1.4em;
+    padding-right:0.3em ;
+    font-weight: 100;
+}
+.f-p{
+    color: var(--c-b);
+    font-size: 0.7em;
+}
+.l-f{
+    display: flex;
+    margin-right: 1em;
+}
+.l-f li i{
+    font-size: 1em;
+}
+.l-f li i:hover{
+    color: var(--c-b);
+}
